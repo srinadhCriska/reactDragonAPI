@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+   box-sizing: border-box;
+   margin: 0px;
+   padding: 0px;
+   font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+
+.bg-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    background-color: #272B33;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.nav-logo {
+    width: 70px;
+    height: 54px;
+}
+
+nav {
+    height: 3%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 5px 20px;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 21px;
+    color: #616161;
+    font-weight: 700;
+}
+
+.a-button {
+    background-color: #FBC02D;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    color: #FEF1DB;
+    border-radius: 7px;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 10px 15px;
+}
+
+.card {
+    width: 100%;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 22px;
+}
+
+.body-logo {
+    width: 52%;
+    min-height: 196px;
+}
+
+.body-text {
+    color: #FBC02D;
+    font-size: 40px;
+    margin-top: 4px;
+}
+
+button {
+    padding: 10px 40px;
+    background-color: #272B33;
+    color: #272B33;
+    background-color: #fff;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+/* .cards-holder{
+    width: 100%;
+display: flex;
+justify-content: center;
+} */
+
+.images-container {
+    width: 100%;
+    position: relative;
+    margin: 50px 0px;
+}
+
+#imagesBox{
+    width: 85%;
+    gap: 38px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    transform: translateX(14%);
+}
