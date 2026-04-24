@@ -1,8 +1,9 @@
-// import { CharDetails } from "../CharDetails.component/CharDetails";
+
 import "./EachChar.css";
 
 export const EachCharacterCard = ({ data }) => {
   const { id, name, ki, maxKi, race, image, description, gender,affiliation } = data;
+
    let characterDetails = [
     {Affiliation:affiliation},
     {KI:ki},
