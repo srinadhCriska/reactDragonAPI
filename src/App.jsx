@@ -1,10 +1,7 @@
-
 import "./App.css";
-import Home from "./components/Home/Home.component";
-
+import Home from "./pages/Home/Home.component";
 
 function App() {
-  
   return (
     <>
       <Home/>
