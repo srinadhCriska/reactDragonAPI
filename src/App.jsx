@@ -10,8 +10,16 @@ function App() {
   
   useEffect(()=>{
      const fetchData=async()=>{
-         const charData= await fetchDragonBallAPI()
-         updateCharData(charData)
+        try{
+          const charData= await fetchDragonBallAPI()
+          updateCharData(charData)
+
+        }
+        catch(e){
+           console.log(
+          "Error inside the useEffect",e.message
+           )
+        }
      }
 
      fetchData()
