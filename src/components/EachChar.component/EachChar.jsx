@@ -1,4 +1,4 @@
-import { CharDetails } from "../CharDetails.component/CharDetails";
+// import { CharDetails } from "../CharDetails.component/CharDetails";
 import "./EachChar.css";
 
 export const EachCharacterCard = ({ data }) => {

@@ -1,7 +1,4 @@
-// import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "./assets/vite.svg";
-import heroImg from "./assets/hero.png";
+
 import "./App.css";
 import { useState,useEffect } from "react";
 import { fetchDragonBallAPI } from "./service/dragonBall.API";
@@ -14,7 +11,7 @@ function App() {
   useEffect(()=>{
      const fetchData=async()=>{
          const charData= await fetchDragonBallAPI()
-         updateCharData(charData.items)
+         updateCharData(charData)
      }
 
      fetchData()
