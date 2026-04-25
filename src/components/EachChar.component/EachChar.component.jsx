@@ -1,17 +1,25 @@
 
 import "./EachChar.css";
-
+import { useNavigate } from "react-router-dom";
 export const EachCharacterCard = ({ data }) => {
   const { id, name, ki, maxKi, race, image, description, gender,affiliation } = data;
-
+  const navigate=useNavigate()
    let characterDetails = [
     {Affiliation:affiliation},
     {KI:ki},
     {"Total KI":maxKi}
    ];
+  const onClickChar=()=>{
+      console.log("Char Clicked");
+      
+      navigate("/eachCharPlanetPage",{state:data}
+      )
+  }
+  
+
   
   return (
-    <div className="each-card">
+    <div className="each-card" onClick={onClickChar}>
       <img src={image} alt={name} className="each-image" />
       <div className="img-details">
         <h2 className="def-clr text-title">{name}</h2>

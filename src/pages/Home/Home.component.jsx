@@ -1,11 +1,11 @@
-import Navbar from "../../components/Navbar/Navbar.component";
-import Card from "../../components/Card/Card.component";
+// import Navbar from "../../components/Navbar/Navbar.component";
+// import Card from "../../components/CharacterCard/Card.component";
+import { HomeCard } from "../../components/HomeCard/HomeCard.component";
 
 const Home = () => {
   return (
-    <div className="bg-container">
-      <Navbar />
-      <Card />
+    <div>
+      <HomeCard/>
     </div>
   );
 };

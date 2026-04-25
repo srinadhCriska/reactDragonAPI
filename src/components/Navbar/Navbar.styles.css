@@ -1,10 +1,12 @@
 .nav-logo {
     width: 70px;
     height: 54px;
+    cursor: pointer;
+
 }
 
-nav {
-    height: 3%;
+nav{
+    height:60px;
     background-color: #fff;
     display: flex;
     justify-content: space-between;
